@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -123,6 +123,7 @@
         "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -138,25 +139,25 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.125,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.25,
+        "min_copper_edge_clearance": 0.15,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.125,
-        "min_hole_to_hole": 0.3,
+        "min_hole_clearance": 0.15,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.35,
-        "min_microvia_drill": 0.25,
+        "min_microvia_drill": 0.15,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.125,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.45,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -205,6 +206,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
         0.125,
         0.15,
         0.2,
@@ -241,6 +243,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
         },
         {
           "diameter": 0.45,
@@ -490,7 +496,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "clustercard.kicad_pro",
+    "filename": "clustercard16.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -658,128 +664,64 @@
       "ch32v003sub00"
     ],
     [
-      "402acc45-aff9-403f-83e2-c206969e13b1",
+      "61801641-efaf-431f-b9bc-5a273e2e5782",
       "ch32v003sub1"
     ],
     [
-      "efa1c934-d44f-4aaf-84fa-76561164f03c",
+      "713d2c09-71c0-46cd-81d1-af32f263e5df",
       "ch32v003sub2"
     ],
     [
-      "c5e516c6-f266-49fe-875b-428ec7e7904d",
+      "023f5578-5fdf-4ac9-bb6f-640a04ea3b7f",
       "ch32v003sub3"
     ],
     [
-      "f2f0a911-5a3d-40a4-93ff-9d75ead28972",
+      "74cae4f3-b240-475e-a17b-73559e91b0ad",
       "ch32v003sub4"
     ],
     [
-      "af1e80de-0146-4181-996d-8c377c44ffb6",
+      "6f8dbd6b-39d3-4b81-bc7e-6b90d7876b09",
       "ch32v003sub5"
     ],
     [
-      "07f0a64e-d125-46cb-822a-067e5bd13a8c",
+      "0364d864-f4ab-4253-914e-bf6d522812b9",
       "ch32v003sub6"
     ],
     [
-      "8d0406e3-45ad-4e16-a2ff-47a6a31c3ab9",
+      "460bfa49-9e19-4aa7-9f12-eddb3b613ff4",
       "ch32v003sub7"
     ],
     [
-      "dc1319f4-9e62-4d95-aba4-21894e5e576c",
+      "46cfc77b-734c-4352-baaf-6aa0db267156",
       "ch32v003sub8"
     ],
     [
-      "1c85dec7-fc63-40c8-b360-c0af4ee1c83f",
+      "d14c1946-701a-4c9f-ab11-3530f3b0a043",
       "ch32v003sub9"
     ],
     [
-      "46dd5d30-d070-4923-865d-079b1e0a9e30",
+      "04eab6a1-414a-4ead-b96f-d305f425f048",
       "ch32v003sub10"
     ],
     [
-      "9c2342b2-95b9-4bcb-a6fd-19b2b4d5805c",
+      "77bbd5e5-0950-4fa1-baa1-f0d31f18f906",
       "ch32v003sub11"
     ],
     [
-      "34c64c0c-bb9b-4712-8020-a14b988f5b1b",
+      "6a27d3c0-c120-46e7-bb32-c35d592fadcd",
       "ch32v003sub12"
     ],
     [
-      "4b7467b6-27d4-480f-8f62-b1cd64ad6a4b",
+      "483ff883-2036-4528-8172-373310ca43a8",
       "ch32v003sub13"
     ],
     [
-      "5bb54b12-e26f-4ecb-9ec1-f9fb23fb9791",
+      "4d226e96-cb30-4cd0-9364-0c73ff1b966e",
       "ch32v003sub14"
     ],
     [
-      "2c04d3d9-7b13-49dc-8662-1dfbbc2a5084",
+      "50d2ee1b-399c-43b4-86c8-9c420a3ba33e",
       "ch32v003sub15"
-    ],
-    [
-      "5b1578cb-fd74-4087-b6a8-e8ffa2818a2d",
-      "ch32v003sub16"
-    ],
-    [
-      "fd48f3e0-cbf6-44be-b4f6-e3bedeaef054",
-      "ch32v003sub17"
-    ],
-    [
-      "ba8195b1-1d21-468c-81f9-01f5f77a54dd",
-      "ch32v003sub18"
-    ],
-    [
-      "b6291b90-6303-4d32-aecd-6cc59b360a21",
-      "ch32v003sub19"
-    ],
-    [
-      "0fb82487-57f0-497b-baa0-e28181eb93c3",
-      "ch32v003sub20"
-    ],
-    [
-      "11808543-bbc8-4245-945b-106c301d8b21",
-      "ch32v003sub21"
-    ],
-    [
-      "cdb7fe99-fd2e-4791-a7f1-e3827e781fb5",
-      "ch32v003sub22"
-    ],
-    [
-      "4c858b92-7d17-40e7-bc59-63d31caa6183",
-      "ch32v003sub23"
-    ],
-    [
-      "d2ad61d0-1320-4da4-bde0-4356c7c1990c",
-      "ch32v003sub24"
-    ],
-    [
-      "af224df0-2c36-4e25-abcc-5a4ada37fdae",
-      "ch32v003sub25"
-    ],
-    [
-      "aee3c8ff-e985-4d83-99a7-19a0c28f8976",
-      "ch32v003sub26"
-    ],
-    [
-      "fca6b1b8-93f4-4d5a-8d3e-74e448ab285f",
-      "ch32v003sub27"
-    ],
-    [
-      "bde9860c-c241-47cd-a3d8-2c5b9f7a7f5d",
-      "ch32v003sub28"
-    ],
-    [
-      "032262c4-af06-420c-a6fb-ffee2e5dfed0",
-      "ch32v003sub29"
-    ],
-    [
-      "343111a3-8a85-4e0e-a0b6-7694bb7d6c55",
-      "ch32v003sub30"
-    ],
-    [
-      "6f136466-daa9-41bc-b40e-f9e76cc3109f",
-      "ch32v003sub31"
     ]
   ],
   "text_variables": {}

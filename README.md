@@ -6,7 +6,7 @@
 
 This supercluster consists of 10 vertically-mounted M.2 2230 modules containing 16 CH32V203C8T6 microcontrollers (not compatible with real M.2 slots) on an M.2 2280 baseboard. Host-to-cluster communication goes through a PCI Express UART controller connected to a CH32V208 on the bottom of the baseboard. Communications inside the cluster go through a custom bus that connects all 160 CH32V203s nodes and the CH32V208 baseboard controller together. Full explanation is in the video below.
 
-<iframe src="https://www.youtube.com/embed/HRfbQJ6FdF0"></iframe>
+![[](https://www.youtube.com/embed/HRfbQJ6FdF0)](https://img.youtube.com/vi/HRfbQJ6FdF0/maxresdefault.jpg)
 
 ## Photos
 
